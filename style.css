@@ -7,14 +7,15 @@ body {
   background-color: #f4f4f4;
 }
 /* Header start */
-.container {
+.container-header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: white;
   padding: 20px;
-  font-size: 15px;
+  font-size: 18px;
   box-shadow:  0 1px 3px 0 rgba(0,0,0,0.3);
+  /* position: fixed; */
 }
 .navigation a {
   text-decoration: none;
@@ -77,7 +78,6 @@ body {
 .head-top {
   width: 100%;
   padding: 20px 15px;
-  border: 1px solid black;
   background-color: #24245f;
   display: flex;
   justify-content: space-between;
@@ -92,6 +92,160 @@ body {
   font-size: 17px;
   text-decoration: underline;
 }
-
-
+.form {
+  padding: 40px 30px;
+  width: 100%;
+  background-color: white;
+}
+.form form label {
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+.form form .input {
+  width: 44%;
+  height: 60px;
+  display: block;
+  padding:0;
+  padding-left: 2px;
+  margin: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.form form .bottom {
+  margin-bottom: 20px;
+}
+.form form input {
+  margin-top: 12px;
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 0;
+  border: 1px solid rgba(80, 79, 79, 0.621);
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.1);
+}
+.form form input:hover {
+  border: 1px solid rgba(80, 79, 79, 0.621);
+}
+.form form button {
+  font-family: sans-serif;
+  background-color: #6eb62ee0;
+  border: 1px solid #496b2ce0;
+  margin-top: 30px;
+  font-size: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 5px;
+}
+.form form button:hover{
+  background-color: #599722;
+}
+.form form button a {
+  color:white;
+  text-decoration: none;
+}
+.footer-bottom {
+  background-color:#a8abb1;
+}
+.footer-bottom .text-bottom {
+  display: flex;
+  align-items: center;
+}
+.footer-bottom .text-bottom img {
+  margin-left: 10px;
+}
+.footer-bottom .text-bottom .free-text {
+  color: #3c3d3f;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0;
+  font-size: 20px;
+}
+.footer-bottom .free-text:hover {
+  color:white;
+}
 /* End Main */
+/* Start Footer */
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color:#333;
+  margin-bottom: 0;
+}
+footer .container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .container .box-tashkilot .media-s a {
+  text-decoration: none;
+}
+footer .container .box-tashkilot .media-s a img {
+  margin-top: 40px;
+  width: 30px;
+  border-radius: 7px;
+  opacity: .8;
+}
+footer .container .box-tashkilot .media-s a img:hover{
+  opacity: 1;
+}
+footer .container div {
+  width: 200px;
+  margin-top: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .container ul {
+  margin-top: 15px;
+  font-size: 18px;
+}
+footer .container ul li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+footer .container ul li a {
+  text-decoration: none;
+  color: #939598;
+}
+footer .container ul li a:hover {
+  color:#19b47b;
+}
+footer .container .box-donat {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+footer .container .box-donat .btns {
+  margin: 70px 0px 0 0;
+}
+footer .container .box-donat .btns .use {
+  font-size: 19px;
+  padding: 12px 22px;
+}
+.user-agreement {
+  width: 100%;
+  height:80px;
+  background-color:#171414;
+  display: flex;
+  align-items:center;
+}
+.user-agreement .user-agrmt {
+  color:#939598;
+  font-size: 18px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.user-agreement .user-agrmt:hover {
+  color:#19b47b;
+  cursor: pointer;
+}
+/* End Footer */

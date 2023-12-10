@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <div class="container">
+    <div class="container-header">
       <div class="maktab-logo">
         <a href="/index.html"><img src="/uzlogotype.png" alt="maktab-rasm"></a>
       </div>
@@ -21,7 +21,6 @@
       </div>
       <div class="box-1">
         <select name="lang" id="lang">
-          <option value="lang"><a href="#uz">O'zb</a></option>
           <option value="lang"><a href="#uz">O'zbekcha</a></option>
           <option value="lang"><a href="#ru">Русский</a></option>
         </select>
@@ -37,9 +36,71 @@
       <div class="text-1">Kirish eMaktab</div>
       <div class="text-link">Tizimda ro'yxatdan o'tmaganmisiz?</div>
     </div>
-    <div class="form"></div>
-    <button>Tizimga kiring</button>
-    <div class="footer-bottom"></div>
+    <div class="form">
+      <form>
+        <label for="login">Login</label><br><br>
+        <span class="input bottom">
+          <input type="text"><br><br>
+        </span>
+        <label for="password" name="password">Parol</label><br><br>
+        <span class="input">
+          <input type="password" name="password" id="password"><br><br>
+        </span>
+        <button><a href="#system-entering">Tizimga kiring</a></button>
+      </form>
+    </div>
+    <div class="footer-bottom">
+      <div class="text-bottom">
+        <img src="/help.png" alt="help-icon">
+        <span class="free-text">Login yoki parolni unutdingizmi?</span>
+        <a href="#login-r" class="free-text">Loginni tiklash</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="box-tashkilot">
+        Tashkilot haqida
+        <ul>
+          <li><a href="#about-we">Biz haqimizda</a></li>
+          <li><a href="#news">Yangiliklar</a></li>
+          <li><a href="#connect-data">Aloqa uchun ma'lumotlar</a></li>
+        </ul>
+        <span class="media-s">
+          <a href="https://facebook.com/"><img src="/Social-Media/facebook-white.png" alt="Facebook-media"></a>
+          <a href="https://intagram.com/"><img src="/Social-Media/instagram-white.png" alt="Instagram-media"></a>
+          <a href="https://telegram.org/"><img src="/Social-Media/telegram-white.png" alt="Telegram-media"></a>
+          <a href="https://youtube.com/"><img src="/Social-Media/youtube-white.png" alt="YouTube-media"></a>
+        </span>
+      </div>
+      <div class="box-imkoniyat">
+        Imkoniyatlar
+        <ul>
+          <li><a href="#toTeachers">O'qituvchilarga</a></li>
+          <li><a href="#toParents">Ota-onalarga</a></li>
+          <li><a href="#toPupils">O'quvchilarga</a></li>
+          <li><a href="#toGovernment">Davlat organlariga</a></li>
+        </ul>
+      </div>
+      <div class="box-hamkor">
+        Hamkorlarga
+        <ul>
+          <li><a href="#hamkor">Hamkorlik dasturlari</a></li>
+        </ul>
+      </div>
+      <div class="box-donat">
+        Qo'llab-quvvatlash
+        <ul>
+          <li><a href="#donate">Qo'llab-quvvatlash xizmati portal</a></li>
+        </ul>
+        <div class="btns">
+          <a href="#connect" class="connect use">Tashkilotga ulash</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="user-agreement">
+    <span class="user-agrmt">Foydalanuvchining shartnomasi</span>
   </div>
 </body>
 </html>
